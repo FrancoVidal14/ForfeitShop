@@ -1,0 +1,86 @@
+#caracteristicas {
+  position: relative;
+  display: flex;
+  height: 14vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.slider-container {
+  width: 100%;
+}
+
+.slider-content {
+  width: 33%;
+}
+
+.car-box {
+  width: 100%;
+}
+
+.car-box div {
+  width: 100%;
+}
+
+.car-box img {
+  width: 64px;
+}
+
+@media only screen and (max-width: 767px) {
+  .car-box {
+    width: 100%;
+  }
+
+  .slider-container {
+    width: auto; /* Asegúrate de que el contenedor ocupe el 100% del ancho */
+    position: relative;
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    min-width: 100%;
+    scroll-snap-type: x mandatory;
+    justify-content: flex-start;
+  }
+
+  .slider-content {
+    display: inline-block;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    flex-shrink: 0;
+    width: 100%;
+    white-space: normal;
+    scroll-snap-align: start; /* Asegúrate de que los elementos se alineen correctamente */
+  }
+
+  /* Ocultar la barra de desplazamiento en Chrome y Firefox */
+  .slider-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Asegúrate de que cada .slider-content tenga suficiente espacio */
+  .slider-content > .car-box {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px; /* Ajusta según tus necesidades */
+  }
+
+  .scroll-btn {
+    font-size: 24px;
+    position: absolute;
+    background: none;
+    color: var(--negro);
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    padding: 10px;
+  }
+
+  #prevBtn {
+    left: 10px; /* Ajusta la posición desde la izquierda según sea necesario */
+  }
+
+  #nextBtn {
+    right: 10px; /* Ajusta la posición desde la derecha según sea necesario */
+  }
+}

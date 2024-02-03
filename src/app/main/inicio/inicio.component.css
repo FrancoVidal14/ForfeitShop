@@ -1,0 +1,52 @@
+#Inicio {
+  background-color: var(--blanco);
+  width: 100%;
+  height: 85vh;
+  position: relative;
+  overflow: hidden;
+  z-index: -2;
+  top: 0;
+  left: 0;
+}
+
+h2 {
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  left: 22%;
+  font-size: 72px;
+  font-weight: 500;
+}
+
+canvas#canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  z-index: -1;
+  transform: rotate(0deg) scale(2) translateY(-42%);
+  --gradient-color-1: #cf5f36;
+  --gradient-color-2: #d71c5a;
+  --gradient-color-3: #94a5f4;
+  --gradient-color-4: #9f4ed3;
+  --gradient-speed: 0.000004;
+}
+
+@media only screen and (max-width: 767px) {
+  #Inicio {
+    background-color: var(--blanco);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+  }
+
+  canvas#canvas {
+    height: 100vh;
+    min-height: 300px;
+  }
+}
