@@ -2,7 +2,7 @@
     {
       "id": 1,
       "nombre": "Oversize Clasica - Blanco",
-      "imageUrl": ["src/assets/fotos/productos/1.png"],
+      "imageUrl": ["assets/fotos/productos/1.png"],
       "descripcion": "Remera oversize con cuello grueso %100 algodón",
       "precio": 8000.00,
       "categoria": "Remeras",
@@ -32,7 +32,7 @@
       "id": 3,
       "nombre": "Oversize Clasica - Beige",
       "descripcion": "Remera oversize con cuello grueso %100 algodón",
-      "imageUrl": ["/assets/fotos/productos/3.png"],
+      "imageUrl": ["assets/fotos/productos/3.png"],
       "precio": 8000.00,
       "categoria": "Remeras",
       "variantes": [
@@ -46,7 +46,7 @@
       "id": 4,
       "nombre": "Oversize Clasica - Marrón",
       "descripcion": "Remera oversize con cuello grueso %100 algodón",
-      "imageUrl": ["/assets/fotos/productos/4.png"],
+      "imageUrl": ["assets/fotos/productos/4.png"],
       "precio": 8000.00,
       "categoria": "Remeras",
       "variantes": [
@@ -60,7 +60,7 @@
       "id": 5,
       "nombre": "Musculosa - Blanca",
       "descripcion": "Musculosa oversize %100 algodón",
-      "imageUrl": ["ForfeitShop/src/assets/fotos/productos/5.png"],
+      "imageUrl": ["assets/fotos/productos/5.png"],
       "precio": 5000.00,
       "categoria": "Musculosa",
       "variantes": [
@@ -74,7 +74,7 @@
       "id": 6,
       "nombre": "Musculosa - Negra",
       "descripcion": "Musculosa oversize %100 algodón",
-      "imageUrl": ["/ForfeitShop/src/assets/fotos/productos/6.png"],
+      "imageUrl": ["assets/fotos/productos/6.png"],
       "precio": 5000.00,
       "categoria": "Musculosa",
       "variantes": [
