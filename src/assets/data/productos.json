@@ -55,5 +55,33 @@
         { "id_variante": 15, "talle": "L", "color": "Marrón", "stock": 50 },
         { "id_variante": 16, "talle": "XL", "color": "Marrón", "stock": 50 }
       ]
+    },
+    {
+      "id": 5,
+      "nombre": "Musculosa - Blanca",
+      "descripcion": "Musculosa oversize %100 algodón",
+      "imageUrl": ["assets/fotos/productos/Musculosa Blanca.png"],
+      "precio": 5000.00,
+      "categoria": "Musculosa",
+      "variantes": [
+        { "id_variante": 13, "talle": "S", "color": "Blanco", "stock": 50 },
+        { "id_variante": 14, "talle": "M", "color": "Blanco", "stock": 50 },
+        { "id_variante": 15, "talle": "L", "color": "Blanco", "stock": 50 },
+        { "id_variante": 16, "talle": "XL", "color": "Blanco", "stock": 50 }
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Musculosa - Negra",
+      "descripcion": "Musculosa oversize %100 algodón",
+      "imageUrl": ["assets/fotos/productos/Musculosa Negra.png"],
+      "precio": 5000.00,
+      "categoria": "Musculosa",
+      "variantes": [
+        { "id_variante": 13, "talle": "S", "color": "Negro", "stock": 50 },
+        { "id_variante": 14, "talle": "M", "color": "Negro", "stock": 50 },
+        { "id_variante": 15, "talle": "L", "color": "Negro", "stock": 50 },
+        { "id_variante": 16, "talle": "XL", "color": "Negro", "stock": 50 }
+      ]
     }
 ]
