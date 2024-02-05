@@ -1,5 +1,6 @@
 #productos {
-  height: 100vh;
-  background-color: var(--dorado);
+  display: flex;
+  background-color: var(--gris);
   padding-top: 6em;
+  justify-content: center;
 }

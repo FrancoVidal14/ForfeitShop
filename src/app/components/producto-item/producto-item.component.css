@@ -1,9 +1,8 @@
 .tarjetaProducto {
-  background-color: aliceblue;
+  background-color: var(--blanco);
   padding: 20px;
-  margin: 20px;
+  margin: 10px;
   border-radius: 10px;
-  border: 1px solid var(--negro);
 }
 
 .tarjetaProducto img {
@@ -17,10 +16,20 @@
   justify-content: center;
 }
 
+.textoProducto h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.comprarbtn {
+  margin-top: 15px;
+}
+
 .comprarbtn a {
   text-decoration: none;
   color: var(--negro);
-  border: 1px solid var(--negro);
+  border: 1px solid var(--dorado);
   padding: 10px 15px;
   border-radius: 10px;
   font-size: 14px;
