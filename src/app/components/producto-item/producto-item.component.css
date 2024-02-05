@@ -1,0 +1,34 @@
+.tarjetaProducto {
+  background-color: aliceblue;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  border: 1px solid var(--negro);
+}
+
+.tarjetaProducto img {
+  justify-content: center;
+  height: 22em;
+  width: 100%;
+}
+
+.imagenProducto {
+  display: flex;
+  justify-content: center;
+}
+
+.comprarbtn a {
+  text-decoration: none;
+  color: var(--negro);
+  border: 1px solid var(--negro);
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.comprarbtn a:hover {
+  background-color: var(--dorado);
+  color: var(--blanco);
+}

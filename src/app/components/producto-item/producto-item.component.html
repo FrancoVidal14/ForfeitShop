@@ -1,0 +1,13 @@
+<div class="tarjetaProducto">
+  <div class="imagenProducto">
+    <img [src]="producto!.imageUrl[0]" [alt]="producto?.nombre" />
+  </div>
+  <div class="textoProducto">
+    <h3>{{ producto?.categoria }}</h3>
+    <h2>{{ producto?.nombre }}</h2>
+    <p>${{ producto?.precio }}</p>
+  </div>
+  <div class="comprarbtn">
+    <a href="">COMPRAR</a>
+  </div>
+</div>

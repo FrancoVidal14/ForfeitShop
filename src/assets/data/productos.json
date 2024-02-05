@@ -1,9 +1,8 @@
-{
-"productos": [
+[
     {
       "id": 1,
       "nombre": "Remera Oversize Clasica - Blanco",
-      "imageUrl": ["src/assets/fotos/productos/Oversize clasica Blanca.png"],
+      "imageUrl": ["assets/fotos/productos/Oversize clasica Blanca.png"],
       "descripcion": "Remera oversize con cuello grueso %100 algodón",
       "precio": 8000.00,
       "categoria": "Remeras",
@@ -13,11 +12,12 @@
         { "id_variante": 3, "talle": "L", "color": "Blanco", "stock": 50 },
         { "id_variante": 4, "talle": "XL", "color": "Blanco", "stock": 50 }
       ]
+      
     },
     {
       "id": 2,
       "nombre": "Remera Oversize Clasica - Negro",
-      "imageUrl": ["src/assets/fotos/productos/Oversize clasica Beige.png"],
+      "imageUrl": ["assets/fotos/productos/Oversize clasica Beige.png"],
       "descripcion": "Remera oversize con cuello grueso %100 algodón",
       "precio": 8000.00,
       "categoria": "Remeras",
@@ -32,7 +32,7 @@
       "id": 3,
       "nombre": "Remera Oversize Clasica - Beige",
       "descripcion": "Remera oversize con cuello grueso %100 algodón",
-      "imageUrl": ["src/assets/fotos/productos/Oversize clasica Beige.png"],
+      "imageUrl": ["assets/fotos/productos/Oversize clasica Beige.png"],
       "precio": 8000.00,
       "categoria": "Remeras",
       "variantes": [
@@ -46,7 +46,7 @@
       "id": 4,
       "nombre": "Remera Oversize Clasica - Marrón",
       "descripcion": "Remera oversize con cuello grueso %100 algodón",
-      "imageUrl": ["src/assets/fotos/productos/Oversize clasica Marron.png"],
+      "imageUrl": ["assets/fotos/productos/Oversize clasica Marron.png"],
       "precio": 8000.00,
       "categoria": "Remeras",
       "variantes": [
@@ -56,5 +56,4 @@
         { "id_variante": 16, "talle": "XL", "color": "Marrón", "stock": 50 }
       ]
     }
-  ]
-}
+]
