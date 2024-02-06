@@ -1,0 +1,38 @@
+<div class="producto row">
+  <div class="seccionIzquierda">
+    <div>
+      <!-- <img [src]="producto!.imageUrl[1]" alt="" /> -->
+      <!-- <img [src]="producto!.imageUrl[2]" src="" alt="" />
+      <img [src]="producto!.imageUrl[3]" src="" alt="" /> -->
+    </div>
+    <div>
+      <img [src]="producto!.imageUrl[1]" [alt]="producto?.nombre" />
+    </div>
+  </div>
+  <div class="seccionDerecha">
+    <div>
+      <h2>{{ producto?.nombre }}</h2>
+      <h3>
+        <a href="#">{{ producto?.categoria }}</a>
+      </h3>
+    </div>
+    <div>
+      <p>{{ producto?.descripcion }}</p>
+    </div>
+    <div>
+      <form>
+        <label for="tallas"> Talle:</label>
+        <select id="tallas" name="tallas">
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+          <option value="XL">XL</option>
+        </select>
+      </form>
+    </div>
+    <div>
+      <p>${{ producto?.precio }}</p>
+      <button>Agregar al carrito</button>
+    </div>
+  </div>
+</div>

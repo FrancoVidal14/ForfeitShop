@@ -17,9 +17,14 @@ a {
   font-weight: 300;
 }
 
+.socialMediIcons {
+  justify-content: space-between;
+}
+
 .tituloFooter {
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 10px;
 }
 
 .social-media,
@@ -30,7 +35,10 @@ a {
 }
 
 .social-media a img {
-  width: 1.5em;
-  height: 1.5em;
-  margin-right: 10px;
+  width: 2em;
+  height: 2em;
+}
+
+.socialMediaIcon {
+  filter: brightness(0) invert(1);
 }

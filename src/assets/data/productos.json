@@ -2,10 +2,12 @@
     {
       "id": 1,
       "nombre": "Oversize Clasica - Blanco",
-      "imageUrl": ["assets/fotos/productos/1.png"],
+      "imageUrl": ["assets/fotos/productos/1.webp",
+      "assets/fotos/productos/1.jpg"],
       "descripcion": "Remera oversize con cuello grueso %100 algodón",
       "precio": 8000.00,
       "categoria": "Remeras",
+      "slug": "oversize-blanca",
       "variantes": [
         { "id_variante": 1, "talle": "S", "color": "Blanco", "stock": 50 },
         { "id_variante": 2, "talle": "M", "color": "Blanco", "stock": 50 },
@@ -17,10 +19,12 @@
     {
       "id": 2,
       "nombre": "Oversize Clasica - Negro",
-      "imageUrl": ["assets/fotos/productos/2.png"],
+      "imageUrl": ["assets/fotos/productos/2.webp",
+      "assets/fotos/productos/2.jpg"],
       "descripcion": "Remera oversize con cuello grueso %100 algodón",
       "precio": 8000.00,
       "categoria": "Remeras",
+      "slug": "oversize-negra",
       "variantes": [
         { "id_variante": 5, "talle": "S", "color": "Negro", "stock": 50 },
         { "id_variante": 6, "talle": "M", "color": "Negro", "stock": 50 },
@@ -32,9 +36,11 @@
       "id": 3,
       "nombre": "Oversize Clasica - Beige",
       "descripcion": "Remera oversize con cuello grueso %100 algodón",
-      "imageUrl": ["assets/fotos/productos/3.png"],
+      "imageUrl": ["assets/fotos/productos/3.webp",
+    "assets/fotos/productos/3.jpg"],
       "precio": 8000.00,
       "categoria": "Remeras",
+      "slug": "oversize-beige",
       "variantes": [
         { "id_variante": 9, "talle": "S", "color": "Beige", "stock": 50 },
         { "id_variante": 10, "talle": "M", "color": "Beige", "stock": 50 },
@@ -46,9 +52,10 @@
       "id": 4,
       "nombre": "Oversize Clasica - Marrón",
       "descripcion": "Remera oversize con cuello grueso %100 algodón",
-      "imageUrl": ["assets/fotos/productos/4.png"],
+      "imageUrl": ["assets/fotos/productos/4.webp","assets/fotos/productos/4.png"],
       "precio": 8000.00,
       "categoria": "Remeras",
+      "slug": "oversize-marron",
       "variantes": [
         { "id_variante": 13, "talle": "S", "color": "Marrón", "stock": 50 },
         { "id_variante": 14, "talle": "M", "color": "Marrón", "stock": 50 },
@@ -58,11 +65,12 @@
     },
     {
       "id": 5,
-      "nombre": "Musculosa - Blanca",
+      "nombre": "Musculosa - Blanco",
       "descripcion": "Musculosa oversize %100 algodón",
-      "imageUrl": ["assets/fotos/productos/5.png"],
+      "imageUrl": ["assets/fotos/productos/5.webp","assets/fotos/productos/5.jpg"],
       "precio": 5000.00,
       "categoria": "Musculosa",
+      "slug": "musculosa-blanca",
       "variantes": [
         { "id_variante": 13, "talle": "S", "color": "Blanco", "stock": 50 },
         { "id_variante": 14, "talle": "M", "color": "Blanco", "stock": 50 },
@@ -72,11 +80,12 @@
     },
     {
       "id": 6,
-      "nombre": "Musculosa - Negra",
+      "nombre": "Musculosa - Negro",
       "descripcion": "Musculosa oversize %100 algodón",
-      "imageUrl": ["assets/fotos/productos/6.png"],
+      "imageUrl": ["assets/fotos/productos/6.webp","assets/fotos/productos/6.jpg"],
       "precio": 5000.00,
       "categoria": "Musculosa",
+      "slug": "musculosa-negra",
       "variantes": [
         { "id_variante": 13, "talle": "S", "color": "Negro", "stock": 50 },
         { "id_variante": 14, "talle": "M", "color": "Negro", "stock": 50 },
