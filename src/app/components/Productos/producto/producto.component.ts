@@ -3,11 +3,12 @@ import { ActivatedRoute } from '@angular/router';
 import { Producto } from '../../../models/producto.model';
 import { Subscription } from 'rxjs';
 import { ProductoService } from '../../../services/producto.service';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-producto',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './producto.component.html',
   styleUrl: './producto.component.css'
 })

@@ -3,3 +3,9 @@
   height: 100vh;
   background-color: var(--gris);
 }
+
+img {
+  justify-content: center;
+  height: 22em;
+  width: 100%;
+}
