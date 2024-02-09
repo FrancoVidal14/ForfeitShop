@@ -17,6 +17,10 @@ export class ProductoComponent implements OnInit, OnDestroy{
   producto: Producto | undefined;
   productoSub: Subscription | undefined;
 
+  galeria: Array<any> = [];
+  renderGaleria: Boolean = true;
+  currentImg: string | undefined;
+
   constructor(private route: ActivatedRoute, private productoService: ProductoService) {}
 
   ngOnInit(): void {
@@ -25,7 +29,7 @@ export class ProductoComponent implements OnInit, OnDestroy{
     .subscribe({
       next: (productos: Producto[]) => {
         this.producto = productos.filter(p => p.slug === this.slug)[0]
-        console.log(this.producto)
+        this.currentImg = this.producto.imageUrl[0]
       },
       error: (err: any) => {
         console.error('Error', err)

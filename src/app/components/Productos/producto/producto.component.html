@@ -1,12 +1,12 @@
 <div class="producto row">
-  <div class="seccionIzquierda">
-    <div>
-      <!-- <img [src]="producto!.imageUrl[1]" alt="" /> -->
-      <!-- <img [src]="producto!.imageUrl[2]" src="" alt="" />
-      <img [src]="producto!.imageUrl[3]" src="" alt="" /> -->
+  <div class="seccionIzquierda row">
+    <div id="galeria" class="column">
+      @for (itemImg of producto?.imageUrl; track producto?.id) {
+      <img [src]="itemImg" />
+      }
     </div>
-    <div>
-      <img [src]="producto!.imageUrl[1]" [alt]="producto?.nombre" />
+    <div id="producto">
+      <img [src]="currentImg" [alt]="producto?.nombre" />
     </div>
   </div>
   <div class="seccionDerecha">
@@ -32,6 +32,7 @@
     </div>
     <div>
       <p>${{ producto?.precio }}</p>
+      <button>Comprar Ahora</button>
       <button>Agregar al carrito</button>
     </div>
   </div>

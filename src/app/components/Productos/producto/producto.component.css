@@ -3,3 +3,22 @@
   height: 100vh;
   background-color: var(--gris);
 }
+
+#producto {
+  margin: 20px;
+}
+
+#producto img {
+  width: 15em;
+  height: 15em;
+}
+
+#galeria img {
+  width: 5em;
+  height: 5em;
+  margin: 10px;
+}
+
+#galeria img:hover {
+  border: 1px solid var(--negro);
+}
