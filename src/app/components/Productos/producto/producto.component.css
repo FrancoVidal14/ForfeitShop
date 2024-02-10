@@ -22,3 +22,7 @@
 #galeria img:hover {
   border: 1px solid var(--negro);
 }
+
+button {
+  width: 100%;
+}
