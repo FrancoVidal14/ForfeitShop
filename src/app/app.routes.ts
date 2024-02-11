@@ -2,7 +2,7 @@ import { Routes } from '@angular/router';
 import { InicioComponent } from './pages/Inicio/inicio.component';
 import { ProductosComponent } from './components/Productos/productos.component';
 import { ProductoComponent } from './components/Productos/producto/producto.component';
-import { SignComponent } from './pages/sign/sign/sign.component';
+import { SignComponent } from './components/sign/sign.component';
 
 export const routes: Routes = [
     {
