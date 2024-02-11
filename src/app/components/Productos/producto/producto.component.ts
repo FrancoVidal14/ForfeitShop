@@ -2,7 +2,7 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Producto } from '../../../models/producto.model';
 import { Subscription } from 'rxjs';
-import { ProductoService } from '../../../services/producto.service';
+import { ProductoService } from '../../../services/producto.service'
 
 @Component({
   selector: 'app-producto',
@@ -40,4 +40,9 @@ export class ProductoComponent implements OnInit, OnDestroy{
   ngOnDestroy(): void {
     this.productoSub?.unsubscribe();
   }
+
+  handleChangeImg(itemImg: string){
+   this.currentImg = itemImg;
+  }
 }
+
